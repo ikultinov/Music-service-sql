@@ -55,39 +55,39 @@ insert into album
 
 
 insert into track(name, songduration, albumid)
-	values('The Unforgiven', '6:26', 12);
+	values('The Unforgiven', 386, 12);
 insert into track(name, songduration, albumid)
-	values('Если нет пути назад', '3:17', 2);
+	values('Если нет пути назад', 197, 2);
 insert into track(name, songduration, albumid)
-	values('Medicine', '3:37', 7);
+	values('Medicine', 217, 7);
 insert into track(name, songduration, albumid)
-	values('Психопатия', '3:27', 7);
+	values('Психопатия', 207, 7);
 insert into track(name, songduration, albumid)
-	values('Она не такая, как все', '3:26', 10);
+	values('Она не такая, как все', 206, 10);
 insert into track(name, songduration, albumid)
-	values('Торпеда', '3:22', 10);
+	values('Торпеда', 202, 10);
 insert into track(name, songduration, albumid)
-	values('Меломан', '3:34', 9);
+	values('Меломан', 214, 9);
 insert into track(name, songduration, albumid)
-	values('Быть взрослым', '2:25', 9);
+	values('Быть взрослым', 145, 9);
 insert into track(name, songduration, albumid)
-	values('Умереть от счастья', '5:21', 9);
+	values('Умереть от счастья', 321, 9);
 insert into track(name, songduration, albumid)
-	values('Ненавижу города', '2:23', 8);
+	values('Ненавижу города', 143, 8);
 insert into track(name, songduration, albumid)
-	values('Venom', '4:29', 11);
+	values('Venom', 269, 11);
 insert into track(name, songduration, albumid)
-	values('Oltremare', '10:44', 6);
+	values('Oltremare', 644, 6);
 insert into track(name, songduration, albumid)
-	values('Four Dimensions', '4:42', 5);
+	values('Four Dimensions', 282, 5);
 insert into track(name, songduration, albumid)
-	values('Primavera', '7:24', 4);
+	values('Primavera', 444, 4);
 insert into track(name, songduration, albumid)
-	values('Nightbook', '5:50', 3);
+	values('Nightbook', 350, 3);
 insert into track(name, songduration, albumid)
-	values('Mercy', '3:40', 1);
+	values('Mercy', 220, 1);
 insert into track(name, songduration, albumid)
-	values('My Friend of Misery', '6:50', 12)
+	values('My Friend of Misery', 410, 12)
 
 insert into collection(name, releaseyear)
 	values('Солянка-2018', 2018);
@@ -154,7 +154,7 @@ insert into artistgenre
 insert into artistgenre 
 	values(40, 3);
 
-insert into trackcollection values
+insert into trackcollection(trackID, collectionID) values
 	(2, 5),
 	(3, 1),
 	(4, 3),
